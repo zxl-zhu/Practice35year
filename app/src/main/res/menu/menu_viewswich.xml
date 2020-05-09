@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/daohanitem"
+        android:title="导航视图"/>
+    <item
+        android:id="@+id/yejingitem"
+        android:title="夜景视图"/>
+    <item
+        android:id="@+id/biaozhunitme"
+        android:title="标准视图"/>
+    <item
+        android:id="@+id/weixinitem"
+        android:title="卫星视图" />
+    <item
+        android:id="@+id/jiaotongitem"
+        android:title="交通视图"/>
+</menu>

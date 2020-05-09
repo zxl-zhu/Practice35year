@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Practice 3.5 year</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="diqu">
+        <item>宿迁</item>
+        <item>无锡</item>
+        <item>南京</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>常州</item>
+    </string-array>
+    <string-array name="message">
+        <item>全部</item>
+        <item>湿度</item>
+        <item>温度</item>
+        <item>Co2</item>
+        <item>光照</item>
+        <item>PM2.5</item>
+    </string-array>
+</resources>

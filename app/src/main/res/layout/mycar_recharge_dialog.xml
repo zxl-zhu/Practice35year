@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/myCar_Recharge_Edit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入充值金额（1-50）"
+        android:inputType="number"
+        android:maxLength="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="元"
+        android:textSize="25sp" />
+</LinearLayout>

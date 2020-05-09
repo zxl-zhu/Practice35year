@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <ImageView
+
+        android:id="@+id/myCar_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/green"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/myCar_Car_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/myCar_img"
+        android:layout_alignTop="@+id/myCar_img"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="42dp"
+        android:layout_weight="1"
+        android:text="小车编号" />
+
+    <TextView
+        android:id="@+id/myCar_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/myCar_Money"
+        android:layout_alignBottom="@+id/myCar_Money"
+        android:layout_alignEnd="@+id/myCar_Car_id"
+        android:layout_weight="1"
+        android:text="状态" />
+
+    <TextView
+        android:id="@+id/myCar_Money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/myCar_img"
+        android:layout_alignEnd="@+id/myCar_img"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="114dp"
+        android:layout_weight="1"
+        android:text="金额" />
+
+</RelativeLayout>

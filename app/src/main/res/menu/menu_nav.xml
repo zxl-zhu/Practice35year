@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="路况查询"
+            android:icon="@drawable/s1"/>
+        <item
+            android:id="@+id/item2"
+            android:title="天气信息"
+            android:icon="@drawable/s2"/>
+        <item
+            android:id="@+id/item3"
+            android:title="我的座驾"
+            android:icon="@drawable/s3"/>
+        <item
+            android:id="@+id/item4"
+            android:title="我的消息"
+            android:icon="@drawable/s4"/>
+        <item
+            android:id="@+id/item5"
+            android:title="违章类型分析"
+            android:icon="@drawable/s5"/>
+        <item
+            android:id="@+id/item6"
+            android:title="环境监测"
+            android:icon="@drawable/s6"/>
+        <item
+            android:id="@+id/item8"
+            android:title="暂未命名"
+            android:icon="@drawable/s8"/>
+    </group>
+    <group android:id="@+id/xuanxiang2">
+        <item
+            android:id="@+id/item7"
+            android:icon="@drawable/s7"
+            android:title="高德地圖" />
+    </group>
+</menu>
